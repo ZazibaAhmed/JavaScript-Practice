@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="Magic.js"></script>
+	<title>Magic</title>
+</head>
+<body bgcolor="#CCCAEE">
+	
+	
+	<h1 class="title">Magic!</h1>
+ 	<div class="container">
+    <textarea id="text" rows="15" cols="75"></textarea>
+    
+    <div class="buttons">
+    <button onclick="ClearIt()" style="background-color: mediumslateblue;">Clear it</button>
+    <button onclick="Capitalize()" style="background-color: orchid;">Capitalize</button>
+    <button onclick="Sort()" style="background-color: lightskyblue;">Sort</button>
+    <button onclick="Reverse()" style="background-color: palegreen;">Reverse</button>
+    <button onclick="StripBlank()" style="background-color: yellow;">Strip Blank</button>
+    <button onclick="AddNumbers()" style="background-color: orange;">Add Numbers</button>
+    <button onclick="Shuffle()" style="background-color: tomato;">Shuffle</button>
+    </div>
+
+	
+    
+	</div>
+	<style>
+		@font-face{
+        src: url(Rubik-Regular.ttf);
+        font-family: 'F'; 
+        }
+        @font-face{
+        src: url(Rubik-Bold.ttf);
+        font-family: 'b'; 
+        }
+
+            textarea{
+        	border: dashed navy;
+        	float:center;
+        	position:absolute;
+        	top:20%;
+			left:22%;
+		    font-family: 'F';
+		    font-size:18px;
+		    background-color: ivory;
+		    }
+
+		.buttons{
+			width:150vh;
+			float:center;
+        	position:absolute;
+        	top:76%;
+			left:18%;
+		    font-family: 'F';
+		}
+
+		button{
+            font-size: 15px;
+			width:13%;
+			height:40px;
+			font-family: 'b';
+			color:white;
+
+
+		}
+
+        h1{
+        	text-align:center;
+        	float:center;
+        	font-size: 60px;
+        	font-family: 'F';
+
+        }
+		
+		
+
+		</style>
+	
+</body>
+</html>
