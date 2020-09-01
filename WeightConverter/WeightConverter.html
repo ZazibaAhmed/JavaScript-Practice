@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="converter.js"></script>
+	<title>Weight Converter</title>
+</head>
+<body bgcolor="#DAF4F4">
+	
+	
+	<h1 class="title">Weight Converter</h1>
+ 	<div class="container">
+
+	<input type='text' id="input">
+
+	<select id="selectType">
+    <option value="kg">lb to kg</option>
+    <option value="lb">kg to lb</option>
+    
+    </select>
+	<span></span>
+	<button type="button" onclick="convert()">Go</button>
+	<input type='text' id="result">
+    
+	</div>
+	<style>
+		@font-face{
+        src: url(Quicksand-Light.ttf);
+        font-family: 'F'; 
+        }
+        h1{
+           text-align:center;
+           top:20%;
+           left:40%;
+           position:absolute;
+           font-family: 'F';
+
+        }
+        output{
+        	background-color: white;
+        }
+
+        body{
+        	margin:0px;
+        	padding:0px;
+        }
+        .container{
+        	border: solid white;
+        	background: snow;
+        	text-align: center;
+			padding-top: 4%;
+			width:500px;
+			height:70px;						
+			position: absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%, -50%);
+        }
+
+
+		</style>
+	
+
+
+</body>
+</html>

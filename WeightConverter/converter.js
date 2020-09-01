@@ -1,0 +1,28 @@
+
+function convert(){
+ var temp = document.getElementById("selectType");
+ var selected = temp.value;
+ 
+ if (selected =="kg"){
+ 	var k= PoundToKg();
+ 	document.getElementById("result").value = k + " Kg";
+ }
+ else{
+ 	var p=KgToPound();
+ 	document.getElementById("result").value = p + " lb";
+ }
+
+}
+
+function PoundToKg(){
+  var c=document.getElementById("input").value;
+  return c*0.4536;
+}
+
+function KgToPound(){
+  var c=document.getElementById("input").value;
+  return c*2.2046;
+}
+
+	
+
